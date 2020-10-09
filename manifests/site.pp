@@ -3,7 +3,7 @@ node default {
          ensure  => "installed",
      }
      service { 'httpd':
-         ensure => running,
+         ensure => stopped,
      enable => true
      }
  }
